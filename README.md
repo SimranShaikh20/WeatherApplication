@@ -125,12 +125,6 @@ GET https://api.openweathermap.org/data/2.5/weather?q=city_name&appid=your_api_k
 
 ---
 
-## Contact
-
-For any questions or feedback, please contact:
-- **Name:** Simran Shaikh
-- **GitHub:** [SimranShaikh20](https://github.com/SimranShaikh20)
-
 ---
 
 ## Acknowledgments
