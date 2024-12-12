@@ -102,7 +102,7 @@ GET https://api.openweathermap.org/data/2.5/weather?q=city_name&appid=your_api_k
 ![Home Page](image/home1.png)
 
 ### Weather Details
-![Weather Details](image/home1.png)
+![Weather Details](image/home2.png)
 
 ---
 
