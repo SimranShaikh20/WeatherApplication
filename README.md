@@ -23,6 +23,7 @@ Follow these steps to set up the Weather App on your local machine:
 - Python 3.8+
 - Django 4.0+
 - A weather API key (e.g., from [OpenWeatherMap](https://openweathermap.org/)).
+-A search engine API key (e.g., from [Google Custom Search API](https://developers.google.com/custom-search)).
 
 ### Steps
 
@@ -61,6 +62,31 @@ Follow these steps to set up the Weather App on your local machine:
    ```
 
 ---
+
+## How to Get a Weather API Key
+
+1. Go to the [OpenWeatherMap API](https://openweathermap.org/api) website.
+2. Sign up for a free account if you don’t already have one.
+3. After logging in, navigate to the **API Keys** section of your profile.
+4. Generate a new API key or use the default one provided.
+5. Copy the API key and add it to the `.env` file as:
+   ```env
+   WEATHER_API_KEY=your_api_key_here
+   ```
+
+---
+
+## How to Get a Search Engine API Key
+
+1. Go to the [Google Custom Search API](https://developers.google.com/custom-search) website.
+2. Sign in with your Google account.
+3. Navigate to the **Get Started** section and enable the Custom Search JSON API.
+4. Create a new search engine and configure it as per your requirements.
+5. Copy the API key provided in the **Credentials** section.
+6. Add the API key to your `.env` file as:
+   ```env
+   SEARCH_ENGINE_API_KEY=your_search_engine_api_key_here
+   ```
 
 ## Usage
 
