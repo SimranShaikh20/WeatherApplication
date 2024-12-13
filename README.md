@@ -71,6 +71,7 @@ Follow these steps to set up the Weather App on your local machine:
 ---
 
 ## Project Structure
+![Page](image/basic-django.png)
 
 ```
 Weather-App/
