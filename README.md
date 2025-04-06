@@ -1,65 +1,37 @@
-# Weather App
+# 🌦️ Weather App
 
-A Django-based Weather App that fetches and displays current weather data for any city. The application integrates with a weather API to provide real-time weather information, including temperature, humidity, wind speed, and more.
-
----
-
-## Features
-
-- Search weather details by city name.
-- Display of temperature, humidity, wind speed, and general weather conditions.
-- Responsive and user-friendly UI.
-- Error handling for invalid city names or network issues.
-- Caching of API responses for better performance (optional).
+A **Django-based Weather App** that fetches and displays **real-time weather data** for any city using the OpenWeatherMap API. Stay updated with temperature, humidity, wind speed, and general weather conditions—all in a simple, sleek interface! 🌍
 
 ---
 
-## Installation
+## 🚀 Features
 
-Follow these steps to set up the Weather App on your local machine:
+- 🔍 Search for weather by **city name**
+- 🌡️ View **temperature**, **humidity**, **wind speed**, and **weather condition**
+- 📱 **Responsive**, user-friendly interface
+- ⚠️ Error handling for invalid city names or network issues
+- 🚀 Optional **API response caching** for better performance
 
-### Prerequisites
+---
 
-- Python 3.8+
-- Django 4.0+
-- A weather API key (e.g., from [OpenWeatherMap](https://openweathermap.org/)).
--A search engine API key (e.g., from [Google Custom Search API](https://developers.google.com/custom-search)).
+## 🛠️ Installation Guide
 
-### Steps
+Get the app up and running on your local machine in a few simple steps:
 
-1. Clone the repository:
+### ✅ Prerequisites
+
+- 🐍 Python 3.8+
+- 🌐 Django 4.0+
+- 🔑 API Keys:
+  - [OpenWeatherMap API Key](https://openweathermap.org/)
+  - [Google Custom Search API Key](https://developers.google.com/custom-search)
+
+### 📦 Setup Steps
+
+1. **Clone the Repository**:
    ```bash
    git clone https://github.com/SimranShaikh20/WeatherApplication
    cd Weather-App
-   ```
-
-2. Create a virtual environment and activate it:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Set up environment variables:
-   Create a `.env` file in the project root and add your weather API key:
-   ```env
-   WEATHER_API_KEY=your_api_key_here
-   ```
-
-5. Apply migrations and run the development server:
-   ```bash
-   python manage.py migrate
-   python manage.py runserver
-   ```
-
-6. Open the application in your browser at:
-   ```
-   http://127.0.0.1:8000/
-   ```
 
 ---
 
@@ -76,7 +48,8 @@ Follow these steps to set up the Weather App on your local machine:
 
 ---
 
-## How to Get a Search Engine API Key
+🔐 Getting API Keys
+🌦️ Weather API (OpenWeatherMap)
 
 1. Go to the [Google Custom Search API](https://developers.google.com/custom-search) website.
 2. Sign in with your Google account.
@@ -112,7 +85,7 @@ Weather-App/
 
 ---
 
-## API Integration
+🔎 Google Custom Search API
 
 The app uses the [OpenWeatherMap API](https://openweathermap.org/api) to fetch weather data. Make sure to generate an API key and add it to your `.env` file as described in the installation steps.
 
